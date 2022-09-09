@@ -1,0 +1,17 @@
+.global-main {
+  padding-top: 5px;
+  display: flex;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+  padding-left: 15px;
+}
+.lookUp {
+  font-size: 11px;
+  border-radius: 5px;
+}
+.search-button {
+}

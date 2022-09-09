@@ -1,0 +1,27 @@
+p {
+  font-family: Lato;
+}
+.globalHeader {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: brown;
+  position: relative;
+}
+.mainContent {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  /* left: 0;
+  top: 0; */
+  background-color: antiquewhite;
+}
+.search-button {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: brown;
+  position: relative;
+}

@@ -1,0 +1,15 @@
+<div class="global-main">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="nav-search">
+    <div class="lookUp">
+      <label>
+        Look up
+        <input type="search" formControlName="lookUp" placeholder="search" />
+      </label>
+    </div>
+    <div class="search-button">
+      <button type="submit" class="btn btn-primary">Go</button>
+    </div>
+  </form>
+
+  <router-outlet></router-outlet>
+</div>

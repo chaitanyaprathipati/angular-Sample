@@ -1,0 +1,12 @@
+<div class="mainContent">
+  <app-global-header class="globalHeader"> </app-global-header>
+  <div class="search-button">
+    <input
+      type="button"
+      [routerLink]="['./returns&Refund']"
+      value="returns & orders"
+    />
+    <input type="button" [routerLink]="['./cart']" value="cart" />
+  </div>
+</div>
+<router-outlet></router-outlet>
